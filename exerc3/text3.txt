@@ -1,0 +1,1 @@
+First we changed ad-hoc routing protocoll to DSDV (Destination-Sequenced Distance Vector routing), after that we created the grid with the node positions and its connections.

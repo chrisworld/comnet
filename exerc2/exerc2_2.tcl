@@ -2,7 +2,7 @@
 # 				Options			    	    #
 # ==================================================================#
 
-set val(rp)       DumbAgent                ;# ad-hoc routing protocol  
+set val(rp)       DumbAgent                ;# ad-hoc routing protocol
 set val(ll)       LL                       ;# Link layer type
 set val(mac)      Mac/802_11               ;# MAC type
 set val(ifq)      Queue/DropTail/PriQueue  ;# Interface queue type
@@ -12,8 +12,8 @@ set val(prop)     Propagation/TwoRayGround ;# radio-propagation model
 set val(netif)    Phy/WirelessPhy          ;# network interface type
 set val(chan)	  Channel/WirelessChannel  ;# channel type
 
-set val(x)		100		   ;# horizontal dimension
-set val(y)		100		   ;# vertical dimension
+set val(x)		500		   ;# horizontal dimension
+set val(y)		500		   ;# vertical dimension
 set val(nn)       	3                  ;# number of wireless nodes
 set val(stop)		150.0		   ;# end time of simulation
 set val(tr)		out.tr	 	   ;# name of the trace file

@@ -1,0 +1,9 @@
+The RTS threshold is the limit when RTS/CTS Transmission is activated, which means the nodes have to check the network for permission to send (carrier sense). Through RTS/CTS communication the throughput decreases.
+
+We have a packet size of 1500 which is smaller than the RTS threshold which is 3000 and therefore RTS/CTS is not activated.
+
+pict. refering Thrshold lower, throughput lower
+
+
+
+

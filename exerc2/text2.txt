@@ -1,0 +1,9 @@
+in figure .. you see that when node_1 is sending alone the throughput is high but if node_3 is also startin sending to the sink node_2 then the throughput is decreasing dramatically. Thats because of packet collisions.
+
+Node_1 and node_3 are so far away apart, that they do not notice each other, thats called hidden nodes. To implement this they have to be placed on the grid as far away that the range of the nodes exceeded.
+
+in fig .. the throughputs of node_1 and node_3 has increased, this is because of the activated RTS/CTS where the nodes check for collisions and this situation is handled apropriate.
+
+We accomblish the RTS/CTS communication in setting the RTS Threshold to 0 or at least below the packets size.
+
+ The throughput with RTS/CTS stays closely to the total bandwith even when both nodes sends. The throughput without RTS/CTS in fig .. is very low because of collision happening.

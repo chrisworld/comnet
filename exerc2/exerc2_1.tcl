@@ -2,7 +2,7 @@
 # 				Options			    	    #
 # ==================================================================#
 
-set val(rp)       DumbAgent                ;# ad-hoc routing protocol  
+set val(rp)       DumbAgent                ;# ad-hoc routing protocol
 set val(ll)       LL                       ;# Link layer type
 set val(mac)      Mac/802_11               ;# MAC type
 set val(ifq)      Queue/DropTail/PriQueue  ;# Interface queue type
